@@ -79,7 +79,7 @@ Display LFSR
 --------------------
 
 
-.. class:: highlights
+.. function:: 
 
  dispLFSR(state, fpoly, conf='fibonacci', seq='', out_bit_index=-1, ob=None, fb=None, fs=25, ax=None, 
            show_labels=False, title='', title_loc='left', box_color='lightblue', alpha=0.5, 

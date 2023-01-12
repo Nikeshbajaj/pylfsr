@@ -3,6 +3,9 @@ API: Supporting Functions
 
 Supporting Functions for Linear Feedback Shift Register
 
+Primitive Polynomials
+--------------------
+
 .. raw:: html
    <hr width=50 size=10>
 
@@ -35,6 +38,8 @@ Example:
       print(polylist)
       [[5, 2], [5, 4, 2, 1], [5, 4, 3, 2]]
 
+Image Replica of a polynomial
+--------------------
 
 .. raw:: html
    <hr width=50 size=10>
@@ -67,6 +72,11 @@ Example
 
    print(ipoly)
    [5, 4, 3, 1]
+
+
+
+Display LFSR
+--------------------
 
 
 .. class:: highlights
@@ -103,9 +113,11 @@ Example:
       PYL.dispLFSR(state=[1,1,1,1,0], fpoly=[5,3], conf='fibonacci', seq='111', title='R1')
 
 
-::
-  
-  lempel_ziv_complexity(seq):
+Lempel-Ziv Complexity
+--------------------
+
+
+*lempel_ziv_complexity(seq):*
     
 Lempel-Ziv Complexity.
 
@@ -126,25 +138,23 @@ Returns:
     
      
 
-::
-  
-  lempel_ziv_patterns(seq)
+*lempel_ziv_patterns(seq)*
     
- Lempel-Ziv patterns.
  
- It is defined as a set of different patterns exists in a given sequence.
+Lempel-Ziv patterns.
+ 
+It is defined as a set of different patterns exists in a given sequence.
 
- As an example:
- s = '1001111011000010'
- patterns ==> 1, 0, 01, 11, 10, 110, 00, 010
+As an example:
+s = '1001111011000010'
+patterns ==> 1, 0, 01, 11, 10, 110, 00, 010
 
- Parameters: 
-     
-     seq: as string of sequence, could be binary or any other
+Parameters:      
+   seq: as string of sequence, could be binary or any other
 
- Returns:
-     
-     dictionary of all the LZ patterns in given sequence
+Returns:
+
+   dictionary of all the LZ patterns in given sequence
 
 
 

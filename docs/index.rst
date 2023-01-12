@@ -160,3 +160,5 @@ Index List
     :glob:
 
     source/*
+    source/moduleindx
+    

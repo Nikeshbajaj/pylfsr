@@ -64,6 +64,9 @@ Linear Feedback Shift Register - Documentation
 Linear Feedback Shift Register.
 This package includes following components:
 
+Linear Feedback Shift Register
+-----------------------------
+
 .. toctree::
    :maxdepth: 3
    

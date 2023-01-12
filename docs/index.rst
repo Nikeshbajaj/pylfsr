@@ -112,14 +112,16 @@ Generators
 -------------
 
 .. toctree::
-   :maxdepth: 3   
+   :maxdepth: 3
+   
    source/generators
    
 Matlab code
 -------------
 
 .. toctree::
-   :maxdepth: 3   
+   :maxdepth: 3
+   
    source/matlab
    
 
@@ -127,14 +129,16 @@ Contacts
 -------------
 
 .. toctree::
-   :maxdepth: 3   
+   :maxdepth: 3
+   
    source/contacts
    
 Class etc
 -------------
 
 .. toctree::
-   :maxdepth: 3   
+   :maxdepth: 3
+   
    source/lfsrClass
    
    

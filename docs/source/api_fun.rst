@@ -36,9 +36,15 @@ Example:
       [[5, 2], [5, 4, 2, 1], [5, 4, 3, 2]]
 
 
+.. raw:: html
+   <hr width=50 size=10>
+
 get_Ifpoly(fpoly)
------------------
-    
+
+.. raw:: html
+   <hr width=50 size=10>
+
+
 Get image of feebback polynomial
 
 Get the image of primitive polynomial
@@ -62,8 +68,10 @@ Example
    print(ipoly)
    [5, 4, 3, 1]
 
-      
-.. topic:: dispLFSR(state, fpoly, conf='fibonacci', seq='', out_bit_index=-1, ob=None, fb=None, fs=25, ax=None, 
+
+.. class:: highlights
+
+ dispLFSR(state, fpoly, conf='fibonacci', seq='', out_bit_index=-1, ob=None, fb=None, fs=25, ax=None, 
            show_labels=False, title='', title_loc='left', box_color='lightblue', alpha=0.5, 
            output_arrow_color='C0', output_arrow_style='h')
     

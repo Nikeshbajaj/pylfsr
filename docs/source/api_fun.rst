@@ -4,10 +4,11 @@ API: Supporting Functions
 Supporting Functions for Linear Feedback Shift Register
 
 
-::
-   
+.. topic::
+  
   get_fpolyList(m=None):
- 
+
+
  
  
 Get the list of primitive polynomials as feedback polynomials for m-bit LFSR.
@@ -21,7 +22,8 @@ Returns:
    fpoly_list: list of polynomial if m is not None else a dictionary
 
 Example:
-   :: 
+   
+   .. code:: python
 
       import pylfsr as PYL
       #returns a dictionary of polynomial
@@ -51,7 +53,7 @@ Returns:
 
 Example
 
- :: 
+.. code:: python
 
    import pylfsr as PYL
 
@@ -88,8 +90,7 @@ Parameters:
     
 Example:
    
-   :: 
-      
+.. code:: python
       
       import pylfsr as PYL
       

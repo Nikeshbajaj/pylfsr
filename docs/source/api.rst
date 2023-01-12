@@ -78,6 +78,7 @@ Clocking (running LFSR):
 .. list-table:: **Clocking (running LFSR)**
    :widths: 30 50
    :header-rows: 1
+   :align: left
 
    * - Method
      - Discription
@@ -96,6 +97,7 @@ Setters :
 .. list-table:: **Setting parameters**
    :widths: 30 50
    :header-rows: 1
+   :align: left
 
    * - Method
      - Discription
@@ -117,6 +119,7 @@ Getters:
 .. list-table:: **Fetching Attributes**
    :widths: 30 50
    :header-rows: 1
+   :align: left
 
    * - Method
      - Discription
@@ -148,6 +151,7 @@ Testing LFSR Properties:
 .. list-table:: **Testing Properties of LFSR**
    :widths: 30 80
    :header-rows: 1
+   :align: left
 
    * - Method
      - Discription
@@ -196,6 +200,7 @@ Deprecated/replaced methods :
 .. list-table:: **Deprecated methods for future version**
    :widths: 30 80
    :header-rows: 1
+   :align: left
 
    * - Method
      - Discription

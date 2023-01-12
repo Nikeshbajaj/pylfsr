@@ -21,8 +21,16 @@ Linear Feedback Shift Register - Documentation
   :target: https://github.com/Nikeshbajaj/Linear_Feedback_Shift_Register
   :alt: GitHub
 
+.. topic:: *
+   
+   * **Authors**: Nikesh Bajaj, Jesús Requena Carrión
+   * **Version**: 1.0.7 | 03/01/2023
+   * **Homepage**   : https://pylfsr.github.io
 
 
+.. seealso:: Info
+   
+    Version: 1.0.7 | Released on 03/01/2023
 
 ..
   .. image:: https://raw.githubusercontent.com/nikeshbajaj/Linear_Feedback_Shift_Register/master/images/5bit_6.gif
@@ -50,6 +58,9 @@ Linear Feedback Shift Register - Documentation
         - .. figure:: https://raw.githubusercontent.com/nikeshbajaj/Linear_Feedback_Shift_Register/master/images/GaloisLFSR_1.gif
 
 
+
+
+
 Linear Feedback Shift Register.
 This package includes following components:
 
@@ -66,3 +77,16 @@ This package includes following components:
    source/matlab
    source/contacts
    source/lfsrClass
+   
+   
+   
+Index List
+----------
+
+List
+
+.. toctree::
+    :titlesonly:
+    :glob:
+
+    source/*

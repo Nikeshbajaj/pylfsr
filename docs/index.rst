@@ -64,29 +64,82 @@ Linear Feedback Shift Register - Documentation
 Linear Feedback Shift Register.
 This package includes following components:
 
-Linear Feedback Shift Register
------------------------------
+Installation
+------------
 
 .. toctree::
    :maxdepth: 3
    
    source/installation
-   source/api
-   source/source/api_fun
-   source/LFSR_Examples
-   source/dispViz
-   source/properties
-   source/generators
-   source/matlab
-   source/contacts
-   source/lfsrClass
    
+
+API
+----
+
+.. toctree::
+   :maxdepth: 3
+
+   source/api
+   source/api_fun
+   
+
+Basic Examples
+-------------
+
+.. toctree::
+   :maxdepth: 3
+ 
+   source/LFSR_Examples
+   
+
+Displaying & Visualization
+-------------
+
+.. toctree::
+   :maxdepth: 3
+   
+   source/dispViz
+
+LFSR Properties & Tests
+-------------
+
+.. toctree::
+   :maxdepth: 3
+   
+   source/properties
+   
+Generators
+-------------
+
+.. toctree::
+   :maxdepth: 3   
+   source/generators
+   
+Matlab code
+-------------
+
+.. toctree::
+   :maxdepth: 3   
+   source/matlab
+   
+
+Contacts
+-------------
+
+.. toctree::
+   :maxdepth: 3   
+   source/contacts
+   
+Class etc
+-------------
+
+.. toctree::
+   :maxdepth: 3   
+   source/lfsrClass
    
    
 Index List
 ----------
-
-List
 
 .. toctree::
     :titlesonly:

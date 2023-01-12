@@ -5,8 +5,9 @@ Supporting Functions for Linear Feedback Shift Register
 
 
 
-
-get_fpolyList(m=None):
+::
+   
+  get_fpolyList(m=None):
     
     Get the list of primitive polynomials as feedback polynomials for m-bit LFSR.
     Only half list of primary primitive polynomials are retuned, not the full list (half list), since for each primary primitive polynomial
@@ -33,8 +34,9 @@ get_fpolyList(m=None):
       [[5, 2], [5, 4, 2, 1], [5, 4, 3, 2]]
     
 
-
-get_Ifpoly(fpoly)
+::
+  
+  get_Ifpoly(fpoly)
     
     Get image of feebback polynomial
     Get the image of primitive polynomial
@@ -59,8 +61,11 @@ get_Ifpoly(fpoly)
       [5, 4, 3, 1]
       
       
- 
-dispLFSR(state, fpoly, conf='fibonacci', seq='', out_bit_index=-1, ob=None, fb=None, fs=25, ax=None, show_labels=False, title='', title_loc='left', box_color='lightblue', alpha=0.5, output_arrow_color='C0', output_arrow_style='h')
+::
+  
+  dispLFSR(state, fpoly, conf='fibonacci', seq='', out_bit_index=-1, ob=None, fb=None, fs=25, ax=None, 
+           show_labels=False, title='', title_loc='left', box_color='lightblue', alpha=0.5, 
+           output_arrow_color='C0', output_arrow_style='h')
     
     Display LFSR for given state, fpoly and conf.
     
@@ -88,8 +93,9 @@ dispLFSR(state, fpoly, conf='fibonacci', seq='', out_bit_index=-1, ob=None, fb=N
       PYL.dispLFSR(state=[1,1,1,1,0], fpoly=[5,3], conf='fibonacci', seq='111', title='R1')
 
 
-
-lempel_ziv_complexity(seq):
+::
+  
+  lempel_ziv_complexity(seq):
     
     Lempel-Ziv Complexity.
     It is defined as the number of different patterns exists in a given stream.
@@ -105,9 +111,11 @@ lempel_ziv_complexity(seq):
     Returns:
         lc: number of different patterns in LZ dictionary
     
-    
-    
-lempel_ziv_patterns(seq)
+     
+
+::
+  
+  lempel_ziv_patterns(seq)
     
     Lempel-Ziv patterns.
     It is defined as a set of different patterns exists in a given sequence.

@@ -84,6 +84,15 @@ Example
 Display LFSR
 --------------------
 
+.. raw:: html
+   
+   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;">
+      dispLFSR(state, fpoly, conf='fibonacci', seq='', out_bit_index=-1, ob=None, fb=None, fs=25, ax=None, 
+           show_labels=False, title='', title_loc='left', box_color='lightblue', alpha=0.5, 
+           output_arrow_color='C0', output_arrow_style='h')
+   </p>
+
+
 
 .. function:: 
 
@@ -122,6 +131,11 @@ Example:
 Lempel-Ziv Complexity
 --------------------
 
+.. raw:: html
+   
+   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;">
+      lempel_ziv_complexity(seq)<br>
+   </p>
 
 **lempel_ziv_complexity(seq):**
     
@@ -160,6 +174,13 @@ Example:
       
 
 --     
+
+
+.. raw:: html
+   
+   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;">
+      lempel_ziv_patterns(seq)<br>
+   </p>
 
 **lempel_ziv_patterns(seq)**:
     

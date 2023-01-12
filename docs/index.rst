@@ -33,18 +33,6 @@ Linear Feedback Shift Register - Documentation
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.7501241.svg
    :target: https://doi.org/10.5281/zenodo.7501241
 
-
-.. topic:: *
-   
-   * **Authors**: Nikesh Bajaj, Jesús Requena Carrión
-   * **Version**: 1.0.7 | 03/01/2023
-   * **Homepage**   : https://pylfsr.github.io
-
-
-.. seealso:: Info
-   
-    Version: 1.0.7 | Released on 03/01/2023
-
 ..
   .. image:: https://raw.githubusercontent.com/nikeshbajaj/Linear_Feedback_Shift_Register/master/images/5bit_6.gif
     :width: 400
@@ -70,7 +58,16 @@ Linear Feedback Shift Register - Documentation
 
         - .. figure:: https://raw.githubusercontent.com/nikeshbajaj/Linear_Feedback_Shift_Register/master/images/GaloisLFSR_1.gif
 
+.. topic:: *
+   
+   * **Authors**: Nikesh Bajaj, Jesús Requena Carrión
+   * **Version**: 1.0.7 | 03/01/2023
+   * **Homepage**   : https://pylfsr.github.io
 
+
+.. seealso:: Info
+   
+    Version: 1.0.7 | Released on 03/01/2023
 
 
 

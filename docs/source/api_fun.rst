@@ -36,9 +36,8 @@ Example:
       [[5, 2], [5, 4, 2, 1], [5, 4, 3, 2]]
 
 
-::
-  
-  get_Ifpoly(fpoly)
+get_Ifpoly(fpoly)
+-----------------
     
 Get image of feebback polynomial
 
@@ -64,12 +63,11 @@ Example
    [5, 4, 3, 1]
 
       
-::
-  
-  dispLFSR(state, fpoly, conf='fibonacci', seq='', out_bit_index=-1, ob=None, fb=None, fs=25, ax=None, 
+.. topic:: dispLFSR(state, fpoly, conf='fibonacci', seq='', out_bit_index=-1, ob=None, fb=None, fs=25, ax=None, 
            show_labels=False, title='', title_loc='left', box_color='lightblue', alpha=0.5, 
            output_arrow_color='C0', output_arrow_style='h')
     
+
 Display LFSR for given state, fpoly and conf.
     
 Parameters:

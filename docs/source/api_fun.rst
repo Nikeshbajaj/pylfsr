@@ -121,7 +121,7 @@ Lempel-Ziv Complexity
 --------------------
 
 
-***lempel_ziv_complexity(seq):***
+**lempel_ziv_complexity(seq):**
     
    Lempel-Ziv Complexity.
 
@@ -142,7 +142,7 @@ Lempel-Ziv Complexity
     
 --     
 
-***lempel_ziv_patterns(seq)***:
+**lempel_ziv_patterns(seq)**:
     
    Lempel-Ziv patterns. 
    

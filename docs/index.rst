@@ -56,13 +56,13 @@ This package includes following components:
 .. toctree::
    :maxdepth: 3
    
-   installation
-   api
-   api_fun
-   LFSR_Examples
-   dispViz
-   properties
-   generators
-   matlab
-   contacts
-   lfsrClass
+   source/installation
+   source/api
+   source/source/api_fun
+   source/LFSR_Examples
+   source/dispViz
+   source/properties
+   source/generators
+   source/matlab
+   source/contacts
+   source/lfsrClass

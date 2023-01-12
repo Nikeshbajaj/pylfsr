@@ -8,15 +8,16 @@ Primitive Polynomials
 
 .. raw:: html
    
-   <p style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;">get_fpolyList(m=None)</p>
+   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;">
+      get_fpolyList(m=None)<br>
+      
+      Get the list of primitive polynomials as feedback polynomials for m-bit LFSR.
+      Only half list of primary primitive polynomials are retuned, not the full list (half list), since for each primary primitive polynomial
+      an image polymial can be computed using 'get_Ifpoly' method
+   </p>
 
-.. raw:: html
-   <hr width=50 size=10>
 
 **get_fpolyList(m=None)**
- 
- .. raw:: html
-   <hr width=50 size=10>
  
 Get the list of primitive polynomials as feedback polynomials for m-bit LFSR.
 Only half list of primary primitive polynomials are retuned, not the full list (half list), since for each primary primitive polynomial
@@ -42,21 +43,22 @@ Example:
       print(polylist)
       [[5, 2], [5, 4, 2, 1], [5, 4, 3, 2]]
 
+
 Image Replica of a polynomial
 --------------------
 
 .. raw:: html
-   <hr width=50 size=10>
+   
+   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;">
+      get_Ifpoly(fpoly)
+      
+      Get image replica of feebback polynomial
+   </p>
 
-   **get_Ifpoly(fpoly)**
-
-.. raw:: html
-   <hr width=50 size=10>
 
 
-Get image of feebback polynomial
+**get_Ifpoly(fpoly)**
 
-Get the image of primitive polynomial
 
 Parameters: 
      fpoly: polynomial as list e.g. [5,2] for x^5 + x^2 + 1

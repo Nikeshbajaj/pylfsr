@@ -3,13 +3,13 @@ API: Supporting Functions
 
 Supporting Functions for Linear Feedback Shift Register
 
+.. raw:: html
+   <hr width=50 size=10>
 
-.. topic::
-  
-  get_fpolyList(m=None):
-
-
+**get_fpolyList(m=None)**
  
+ .. raw:: html
+   <hr width=50 size=10>
  
 Get the list of primitive polynomials as feedback polynomials for m-bit LFSR.
 Only half list of primary primitive polynomials are retuned, not the full list (half list), since for each primary primitive polynomial

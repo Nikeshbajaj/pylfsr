@@ -9,3 +9,6 @@ If any doubt, confusion or feedback please contact me
 Nikesh Bajaj: http://nikeshbajaj.in
 
 PhD Student: **Queen Mary University of London** & **University of Genoa**
+
+
+.. sectionauthor:: Nikesh Bajaj <n.bajaj@qmul.ac.uk>

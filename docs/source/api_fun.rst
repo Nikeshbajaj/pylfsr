@@ -117,44 +117,43 @@ Lempel-Ziv Complexity
 --------------------
 
 
-*lempel_ziv_complexity(seq):*
+***lempel_ziv_complexity(seq):***
     
-Lempel-Ziv Complexity.
+   Lempel-Ziv Complexity.
 
-It is defined as the number of different patterns exists in a given stream.
+   It is defined as the number of different patterns exists in a given stream.
+
+   As an example:
+   s = '1001111011000010'
+   patterns ==> 1, 0, 01, 11, 10, 110, 00, 010
+   #patterns = 8
+
+   Parameters:
+
+      seq: as string of sequence, could be binary or any other
+
+   Returns:
+
+      lc: number of different patterns in LZ dictionary
     
-As an example:
-s = '1001111011000010'
-patterns ==> 1, 0, 01, 11, 10, 110, 00, 010
-#patterns = 8
+--     
+
+***lempel_ziv_patterns(seq)***:
     
-Parameters:
+   Lempel-Ziv patterns. 
    
-   seq: as string of sequence, could be binary or any other
-    
-Returns:
-   
-   lc: number of different patterns in LZ dictionary
-    
-     
+   It is defined as a set of different patterns exists in a given sequence.
 
-*lempel_ziv_patterns(seq)*
-    
- 
-Lempel-Ziv patterns.
- 
-It is defined as a set of different patterns exists in a given sequence.
+   As an example:
+   s = '1001111011000010'
+   patterns ==> 1, 0, 01, 11, 10, 110, 00, 010
 
-As an example:
-s = '1001111011000010'
-patterns ==> 1, 0, 01, 11, 10, 110, 00, 010
+   Parameters:      
+      seq: as string of sequence, could be binary or any other
 
-Parameters:      
-   seq: as string of sequence, could be binary or any other
+   Returns:
 
-Returns:
-
-   dictionary of all the LZ patterns in given sequence
+      dictionary of all the LZ patterns in given sequence
 
 
 

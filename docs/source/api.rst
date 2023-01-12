@@ -4,11 +4,14 @@ Linear Feedback Shift Register
 
 Python implementation of LFSR
 
-
-::
-  
-  class pylfsr.LFSR(fpoly=[5, 2], initstate='ones', conf='fibonacci', seq_bit_index=-1, 
-                     verbose=False, counter_start_zero=True)
+.. raw:: html
+   
+   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;">
+      <i><b>class pylfsr.LFSR(fpoly=[5, 2], initstate='ones', conf='fibonacci', seq_bit_index=-1, 
+                     verbose=False, counter_start_zero=True)</b></i><br>
+      
+      LFSR Class
+   </p>
   
 
 Parameters:

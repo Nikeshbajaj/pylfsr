@@ -7,6 +7,10 @@ Primitive Polynomials
 --------------------
 
 .. raw:: html
+   
+   <p style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;">get_fpolyList(m=None)</p>
+
+.. raw:: html
    <hr width=50 size=10>
 
 **get_fpolyList(m=None)**
@@ -44,7 +48,7 @@ Image Replica of a polynomial
 .. raw:: html
    <hr width=50 size=10>
 
-get_Ifpoly(fpoly)
+   **get_Ifpoly(fpoly)**
 
 .. raw:: html
    <hr width=50 size=10>

@@ -8,7 +8,7 @@ Primitive Polynomials
 
 .. raw:: html
    
-   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;">
+   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;background-color:#e6f9ff;">
       <i><b>get_fpolyList(m=None)</b></i><br>
       
       Get the list of primitive polynomials as feedback polynomials for m-bit LFSR.
@@ -49,7 +49,7 @@ Image Replica of a polynomial
 
 .. raw:: html
    
-   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;">
+   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;background-color:#e6f9ff;">
       <i><b>get_Ifpoly(fpoly)</b></i><br>
       
       Get image replica of feebback polynomial
@@ -86,7 +86,7 @@ Display LFSR
 
 .. raw:: html
    
-   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;">
+   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;background-color:#e6f9ff;">
       <i><b>dispLFSR(state, fpoly, conf='fibonacci', seq='', out_bit_index=-1, ob=None, fb=None, fs=25, ax=None, 
            show_labels=False, title='', title_loc='left', box_color='lightblue', alpha=0.5, 
            output_arrow_color='C0', output_arrow_style='h')</b></i>
@@ -133,7 +133,7 @@ Lempel-Ziv Complexity
 
 .. raw:: html
    
-   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;">
+   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;background-color:#e6f9ff;">
       <i><b>lempel_ziv_complexity(seq)</b></i><br>
    </p>
 
@@ -178,7 +178,7 @@ Example:
 
 .. raw:: html
    
-   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;">
+   <p style="border-width:1px; border-style:solid; border-color:#99e6FF; padding: 1em;background-color:#e6f9ff;">
       <i><b>lempel_ziv_patterns(seq)</b></i><br>
    </p>
 

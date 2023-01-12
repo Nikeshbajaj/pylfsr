@@ -139,7 +139,24 @@ Lempel-Ziv Complexity
    Returns:
 
       lc: number of different patterns in LZ dictionary
-    
+
+
+Example:
+   
+   .. code:: python
+
+      import pylfsr as PYL
+      from pylfsr import LFSR
+      
+      L = LFSR()
+      L.runKCycle(100)
+      seq = L.getSeq()
+      lc = PYL.lempel_ziv_complexity(seq)
+      print(lc)
+      
+      29
+      
+
 --     
 
 **lempel_ziv_patterns(seq)**:
@@ -160,4 +177,48 @@ Lempel-Ziv Complexity
       dictionary of all the LZ patterns in given sequence
 
 
+
+
+Example:
+   
+   .. code:: python
+
+      import pylfsr as PYL
+      from pylfsr import LFSR
+      
+      L = LFSR()
+      L.runKCycle(100)
+      seq = L.getSeq()
+      pdict = PYL.lempel_ziv_patterns(seq)
+      print(pdict)
+      
+      {'0',
+       '00',
+       '000',
+       '0001',
+       '00010',
+       '001',
+       '0011',
+       '01',
+       '010',
+       '0100',
+       '0101',
+       '011',
+       '0111',
+       '1',
+       '10',
+       '100',
+       '1000',
+       '101',
+       '1011',
+       '10110',
+       '101100',
+       '11',
+       '110',
+       '1100',
+       '1101',
+       '11010',
+       '11011',
+       '111',
+       '1111'}
 

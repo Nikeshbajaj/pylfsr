@@ -20,7 +20,7 @@ import datetime
 
 # -- Project information -----------------------------------------------------
 
-project = 'PyLFSR'
+project = 'PYLFSR'
 #copyright = '2022, Nikesh Bajaj'
 copyright = '2019-%s, Nikesh Bajaj' % datetime.date.today().year
 author = 'Nikesh Bajaj'
@@ -111,7 +111,7 @@ html_theme = 'nature'
 
 html_last_updated_fmt = '%b %d, %Y'
 
-html_title = 'pyLFSR'
+html_title = 'PYLFSR'
 import pylfsr
 
 

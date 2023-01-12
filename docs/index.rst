@@ -9,9 +9,6 @@ Linear Feedback Shift Register - Documentation
 .. image:: https://hitsofcode.com/github/Nikeshbajaj/Linear_Feedback_Shift_Register?branch=master
   :target: https://hitsofcode.com/github/Nikeshbajaj/Linear_Feedback_Shift_Register?branch=master
   :alt: PyPI - Hist-of-code
-
---
-
 .. image:: https://img.shields.io/circleci/build/github/Nikeshbajaj/Linear_Feedback_Shift_Register
   :target: https://pypi.python.org/pypi/pylfsr
   :alt: CircleCI
@@ -33,11 +30,8 @@ Linear Feedback Shift Register - Documentation
   :alt: GitHub Repo stars
 .. image:: https://img.shields.io/github/forks/Nikeshbajaj/Linear_Feedback_Shift_Register?style=social
   :alt: GitHub forks
-
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.7501241.svg
    :target: https://doi.org/10.5281/zenodo.7501241
-
-
 
 
 .. topic:: *
